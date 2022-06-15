@@ -35,7 +35,6 @@ const updateTimerUI = () => {
 
 let startBtn = document.getElementById('start-btn');
 startBtn.onclick = () => {
-  console.log('Start button clicked');
 
   // Clear the timer interval first
   clearInterval(timerInterval);
@@ -59,7 +58,6 @@ startBtn.onclick = () => {
 
 let stopBtn = document.getElementById('stop-btn');
 stopBtn.onclick = () => {
-  console.log('Stop button clicked');
   clearInterval(timerInterval);
 }
 
