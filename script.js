@@ -54,8 +54,6 @@ startBtn.onclick = () => {
     }
 
     updateTimerUI();
-
-    console.log('hours: ', hours, ' minutes: ', minutes, ' seconds: ', seconds);
   }, 1000);
 }
 
@@ -67,6 +65,7 @@ stopBtn.onclick = () => {
 
 let resetBtn = document.getElementById('reset-btn');
 resetBtn.onclick = () => {
+  clearInterval(timerInterval);
   seconds = 0;
   minutes = 0;
   hours = 0;
