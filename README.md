@@ -1,6 +1,6 @@
 # vanilla-js-stopwatch
 
-![Stopwatch Project Screenshot](./stopwatch-screenshot.png)
+![Stopwatch Project Screenshot](./stopwatch-recording.gif)
 
 * Basic stopwatch that displays hours, minutes and seconds elapsed
 * Inspiration from the tomato timer I frequently used when studying during uni
